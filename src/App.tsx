@@ -40,11 +40,6 @@ const App = () => {
 		setSearchField(searchFieldString);
 	};
 
-	// const onTitleChange = (event) => {
-	// 	const searchFieldString = event.target.value.toLocaleLowerCase();
-	// 	setTitle(searchFieldString);
-	// };
-
 	return (
 		<div className="App">
 			<h1 className="app-title">Monster Rolodex</h1>
