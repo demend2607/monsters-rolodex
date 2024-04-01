@@ -34,7 +34,7 @@ const App = () => {
 		});
 		setFilterdMonsters(newFilteredMonsters);
 	}, [monsters, searchField]);
-
+	console.log(filteredMonsters);
 	const onSearchChange = (event: ChangeEvent<HTMLInputElement>): void => {
 		const searchFieldString = event.target.value.toLocaleLowerCase();
 		setSearchField(searchFieldString);
